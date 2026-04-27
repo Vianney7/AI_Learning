@@ -1,0 +1,10 @@
+file = open('review.txt', 'w')
+file.write('The Matrix - Amazing film\n')
+file.write('Avatar - Stunning Visuals!\n')
+file.write('The Notebook - Not my cup of tea.\n')
+file.close()
+
+file = open('review.txt', 'r')
+content = file.read()
+print(content)
+file.close()    
