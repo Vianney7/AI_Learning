@@ -8,4 +8,5 @@ movies = [
 
 df = pd.DataFrame(movies)
 print(df)   
-print(df[df['rating']>7.0])
+print(df['rating'].mean())
+print(df.sort_values('rating', ascending=False))
