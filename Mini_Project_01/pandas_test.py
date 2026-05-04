@@ -6,7 +6,6 @@ movies = [
     {'title': 'Inception', 'genre': 'Sci-Fi', 'rating': 8.8},
     {'title': 'Titanic', 'genre': 'Romance', 'rating': 7.8}]
 
-df = pd.DataFrame(movies)
-print(df)   
-print(df['rating'].mean())
-print(df.sort_values('rating', ascending=False))
+df = pd.DataFrame(movies)   
+print(df[df['rating'] < 8.0])   
+print(df[['title', 'rating'] ])  
