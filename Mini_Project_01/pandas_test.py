@@ -9,3 +9,7 @@ movies = [
 df = pd.DataFrame(movies)   
 print(df[df['rating'] < 8.0])   
 print(df[['title', 'rating'] ])  
+print(df[df['title', 'review']])
+print(df.sort_values('rating', ascending=False))
+
+
