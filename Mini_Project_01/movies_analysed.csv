@@ -1,0 +1,8 @@
+title,genre,rating,review,sentiment,confidence
+The Matrix,Sci-Fi,9.0,An absolute masterpiece,POSITIVE,100.0
+The Avengers,Action,10.0,Best superhero movie ever,POSITIVE,100.0
+The Notebook,Romance,3.5,Too slow and boring,NEGATIVE,100.0
+Inception,Sci-Fi,8.8,Mind blowing storyline,NEGATIVE,79.3
+Titanic,Romance,7.8,Beautiful but too long,NEGATIVE,85.0
+Avatar,Adventure,9.5,Stunning visuals,POSITIVE,100.0
+Terminator 2,Sci-Fi,8.8,One of the best action movies ever,POSITIVE,100.0
